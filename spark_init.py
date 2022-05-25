@@ -2,15 +2,26 @@ import pyspark
 from pyspark.sql import SparkSession 
 from pyspark.sql.functions import *
 spark=SparkSession.builder.appName("stringoperations").getOrCreate()
-data = [(1,"20200828", "G1 | ESCADA 1O P/ 2O | STAND | FRALDÁRIO"),(2,"20180525", "G1 | ESCADA 1O P/     2O | STAND | FRALDÁRIO     ")]
-columns=["id","date", "unidade"]
+data = [
+  (1,"20200828", "G1 | ESCADA 1O P/ 2O | STAND | FRALDÁRIO","d"),
+  (2,"20180525", "G1 | ESCADA 1O P/     2O | STAND | FRALDÁRIO     ","A"),
+  (3,"20180525", """G1 | ESCADA 1O P/     2O | STAND | FRALDÁRIO     
+  quebrado  mais            e
+  asldidi
+  ""","d")
+  ]
+columns=["id","date", "unidade", "sigla"]
 df=spark.createDataFrame(data,columns)
 
 reg_exp="\\s+"
 
 #Using SQL function substring()
-df = df.withColumn("unidade", regexp_replace(col("unidade"),'|', '')) \
-            .withColumn("unidade", trim(col("unidade")))
+df = df.withColumn("unidade", regexp_replace(col("unidade"),"[|]", '')) \
+            .withColumn("unidade", regexp_replace(col("unidade"), "[\\r\\n]", '')) \
+            .withColumn("unidade", trim(col("unidade"))) \
+            .withColumn("sigla", trim(upper(col("sigla"))))
+
+df = df.filter("sigla != 'D'")
 df.printSchema()
 df.show(truncate=False)
 
