@@ -3,9 +3,9 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 
 
-aws_access_key_id='ASIAS34UIATUMNGWVXMZ'
-aws_secret_access_key='Y66sIeXVgTZy/20Zz2cy1xi26TtGz4QjVto4FgeJ'
-aws_session_token='IQoJb3JpZ2luX2VjEDoaCXNhLWVhc3QtMSJIMEYCIQCnT/7KMhUCUFXFA1+0VGzaLyOWdUqK98Gg+T1u+3t2owIhAL1hq7pX/DkuGCKQsXchwWHDza2j+MVRKQJV2FDvdXkcKqgDCCMQARoMMTk3MzQyNTI4NzQ0IgznQ844KybMGM7anQ8qhQMbluZfP+2Od3OrG/ii50ZAQ+FcVtWboOYifKOGwQKIfi7VIldxourrerRfw0u5VmwKkDh9iXyVhq4/wX4avlEWuLx534C54RbwXZW6FW9MX42HnjEporpFG2WDDtMlRsQ0pYmcNQJpsfG8R6bmXSyPv6tqUWcu33p2bjAKhZP7v8kJDeoZdmZ02UVC2NWGjyEUNlrDRodd2fld3E+BjETKiqpJcfiPxwHw603vQ5Phx85X40ybcvKIqI3tykY8qiWXQRgZbhvC/ZdF5UxouFfcv707shnUOoaUqjkrlLCTMsvncIb/kqMCi3f24RqYuGZRcbESx5d0OzeTsppsFYkW45yMn0rL3yF9QxJDOMRtJA7Od5EdlP8lVfCc+jnaN2qIYRzS5oTYN/LWpzbDL7BgxEe1Nvo2jvue11bHGu6u+wiJLQ8mQBlC56feM4Vn4conEGjx5WzBALJLVjbhiMFOoSLWvEFNlcPIyp4aeVERdGfXprBTWD/GrcyZ+5FLh9IbNDZ2QjDakKGUBjqlAUlhpS0Ucnivc96csU0XI4vfE7+pTr3jZOFtJ9d1WeAuf1EuBtIMBIf3Fdg0NG6BmVdZ/wEiM/gqkk03MMxKDPq8N9Gj/GV83c2B7KmV/OTd2mTryC3oBMM+r7USa0CUAdVdwKrE49ckV7TcxP9tF9p93OngULUmgGDj8Zxrf42wHGcfJsBRWziYy4uhMCyWE9vWMZDEWwgq1LYHpXzQlCoyIQtgXg=='
+aws_access_key_id="ASIAS34UIATUJRRR2LJI"
+aws_secret_access_key="zZsSYFsSiwGDTwcS+LvwitTxqb73yc68bgtjdJQK"
+aws_session_token="IQoJb3JpZ2luX2VjEIv//////////wEaCXNhLWVhc3QtMSJIMEYCIQDUjkyVfHamBz/ffLKfRpv2J0JxhVMnGWCKxu1Ado2fKAIhAPWmrUmgcu42OtXNZHtGgQha1kfGS/o5Z4mjvnVM5bkNKrEDCIT//////////wEQARoMMTk3MzQyNTI4NzQ0Igzv8xTVisfgmfvTahgqhQObKZA9UYP3z0Vuk/qBo8Jz8kM72m20axg3zCkbQ5ARW114y3vcrydlvoLZlPx0H9fIwb6kWEHBgKPLdtQGLd73Q+2ToEhvTkTGvf55Ijghe+cqSR1rR2J0wdgiNbIyRb3M/gD2YMry8sDYKDGzPzEVDLUEsFBiKMKnloijyb1yPu5LtYxDT20SN4l3/VoyydZ/FkERKXSnr1fwhur2ROfuuMZaYihhxCjXDZL5SfdpwLXNFh7d8m5PqKfG7xJDGu/6g7YdcTR6BjMhB43ijG4USks2PUgdOQegOui6PYcKql8GtGunXmGO+5cUW9HYsXkrj2hCi7a7cZB7yeBFFHYZkAM+QjKFzrlQkGTRc6cfyuCnjOBBHG7sW/EX6QYeVjKBFh1BtCUrlVGK/xf+165WI9nKGr9uxC8Bzq99fIPKDYUE+NmChjotmL49O3hc6pN/UINzPZVVXK9HO5aq2+kdpcwn10FnDQFYk1+tEAlskyMEhZFvDgXZmhDpxdFsJt8Q5l2TPzD4huuUBjqlAS1bKyLui1zE+aOWzVVcO9a5L0PRMZh77K2l4T2OPYKCMMyCMvUtqYZmEcgMWm4vp8nR2G/EThyN3RPLFDMmmQ0ms7oh42d/OZdfACEW2DIXQJ0pX1FY9XW+uaWuhsNMTzxtroHkXwkmYQHGEx0QVUYKegtUL4IIcwlmyLLz7oi/7u2crUtb7hiPhFZt09eZZH3PXK9iKBR/EY2pobag5AnPxnDmew=="
 
 config = {
     'aws_access_key': aws_access_key_id,
@@ -21,38 +21,24 @@ config = {
 }
 
 '''
-    "/home/herculano/dev/java/jars/aws-java-sdk-core-1.12.23.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-redshift-1.12.23.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-redshift-arcadia-internal-1.0.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-redshift-internal-1.12.x.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-sts-1.12.23.jar",
-    "/home/herculano/dev/java/jars/commons-codec-1.15.jar",
-    "/home/herculano/dev/java/jars/commons-logging-1.2.jar",
-    "/home/herculano/dev/java/jars/httpclient-4.5.13.jar",
-    "/home/herculano/dev/java/jars/httpcore-4.4.13.jar",
-    "/home/herculano/dev/java/jars/jackson-annotations-2.12.3.jar",
-    "/home/herculano/dev/java/jars/jackson-core-2.12.3.jar",
-    "/home/herculano/dev/java/jars/jackson-databind-2.12.3.jar",
-    "/home/herculano/dev/java/jars/jackson-dataformat-cbor-2.12.3.jar",
-    "/home/herculano/dev/java/jars/joda-time-2.8.1.jar",
-    "/home/herculano/dev/java/jars/redshift-jdbc42-2.1.0.7.jar"
+    "/home/hc/dev/java/jars/aws-java-sdk-core-1.12.23.jar",
+    "/home/hc/dev/java/jars/aws-java-sdk-redshift-1.12.23.jar",
+    "/home/hc/dev/java/jars/aws-java-sdk-redshift-arcadia-internal-1.0.jar",
+    "/home/hc/dev/java/jars/aws-java-sdk-redshift-internal-1.12.x.jar",
+    "/home/hc/dev/java/jars/aws-java-sdk-sts-1.12.23.jar",
+    "/home/hc/dev/java/jars/commons-codec-1.15.jar",
+    "/home/hc/dev/java/jars/commons-logging-1.2.jar",
+    "/home/hc/dev/java/jars/httpclient-4.5.13.jar",
+    "/home/hc/dev/java/jars/httpcore-4.4.13.jar",
+    "/home/hc/dev/java/jars/jackson-annotations-2.12.3.jar",
+    "/home/hc/dev/java/jars/jackson-core-2.12.3.jar",
+    "/home/hc/dev/java/jars/jackson-databind-2.12.3.jar",
+    "/home/hc/dev/java/jars/jackson-dataformat-cbor-2.12.3.jar",
+    "/home/hc/dev/java/jars/joda-time-2.8.1.jar",
+    "/home/hc/dev/java/jars/redshift-jdbc42-2.1.0.7.jar"
 '''
 jars = [
-    "/home/herculano/dev/java/jars/aws-java-sdk-core-1.12.23.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-redshift-1.12.23.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-redshift-arcadia-internal-1.0.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-redshift-internal-1.12.x.jar",
-    "/home/herculano/dev/java/jars/aws-java-sdk-sts-1.12.23.jar",
-    "/home/herculano/dev/java/jars/commons-codec-1.15.jar",
-    "/home/herculano/dev/java/jars/commons-logging-1.2.jar",
-    "/home/herculano/dev/java/jars/httpclient-4.5.13.jar",
-    "/home/herculano/dev/java/jars/httpcore-4.4.13.jar",
-    "/home/herculano/dev/java/jars/jackson-annotations-2.12.3.jar",
-    "/home/herculano/dev/java/jars/jackson-core-2.12.3.jar",
-    "/home/herculano/dev/java/jars/jackson-databind-2.12.3.jar",
-    "/home/herculano/dev/java/jars/jackson-dataformat-cbor-2.12.3.jar",
-    "/home/herculano/dev/java/jars/joda-time-2.8.1.jar",
-    "/home/herculano/dev/java/jars/redshift-jdbc42-2.1.0.7.jar"
+    "/home/hc/dev/java/jars/redshift-jdbc42-2.1.0.7.jar"
 ]
 
 conf = (

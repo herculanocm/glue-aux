@@ -23,11 +23,8 @@ df=spark.createDataFrame(data,columns)
 df.printSchema()
 
 
-df2 = df.select('id','id2','jsonval',get_json_object(col('jsonval'), '$.Zipcode').alias('zipcode'))
+df2 = df.select('id','id2','jsonval',get_json_object(col('jsonval'), '$.Zipcode2').alias('zipcode'))
 
-#df2 = df
-propostas_tomatico
-detalhes_tomatico_fixo = propostas_tomatico_fixo.select(get_json_object(col('proposta'), '$.taxa').alias('taxa'))
 
 df2.printSchema()
 df2.show(truncate=False)
