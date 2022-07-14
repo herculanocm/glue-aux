@@ -2,17 +2,32 @@ import pandas as pd
 import json 
 import ast
 from pandas import json_normalize
+import numpy as np
+pd.set_option('display.max_columns', None)
+import copy 
 
 def only_dict(d):
     '''
     Convert json string representation of dictionary to a python dict
     '''
-    print(d)
-    print(type(d))
-    e = ast.literal_eval(d)
-    print(e)
-    print(type(e))
+    try:
+        e = ast.literal_eval(d)
+    except:
+        print('except')
+        e = ast.literal_eval('{}')
     return e
+
+def only_dict_json(d):
+    '''
+    Convert json string representation of dictionary to a python dict
+    '''
+    try:
+        conv = d.replace("'", "\"")
+        ret = json.loads(conv)
+        print(type(ret))
+    except:
+        ret = {}
+    return ret
 
 def extract_detail(df):
         df2 = df.rename(columns=
@@ -23,20 +38,26 @@ def extract_detail(df):
 
 # List1 
 lst = [
-    ['tom', 'reacher', 25, "{'id': '012', 'nome': 'herculano0', 'detalhes': {'cod': 1, 'nome': 'ivan'}}"],
-    ['krish', 'pete', 30, "{'id': '123', 'nome': 'herculano2', 'detalhes': {'cod': 1, 'nome': 'ivan'}}"],
-    ['nick', 'wilson', 26, "{'id': '345', 'nome': 'herculano3', 'detalhes': {'cod': 1, 'nome': 'ivan'}}"], 
-    ['juli', 'williams', 22, "{'id': '789', 'nome': 'herculano4', 'valor': 356, 'detalhes': {'cod': 1, 'nome': 'ivan'}}"]
+    ['tom', 'reacher', 25, '''{"id": 35, "name": "Comedy", "codigo": {"id": None}}'''],
+    ['krish', 'pete', 30, '''{"id": 35, "name": "Comedy", "codigo": {"id": 1}}'''],
+    ['nick', 'wilson', 26, '''{"id": 35, "name": "Comedy", "codigo": {"id": 1}}'''], 
+    ['juli', 'williams', 22, '''{"id": 35, "name": "Comedy", "codigo": {"id": 1}}''']
   
     ]
     
 df = pd.DataFrame(lst, columns =['FName', 'LName', 'Age', 'propostas'])
 
-A = json_normalize(df['propostas'].apply(only_dict).tolist(), max_level=0)
-B = json_normalize(A['detalhes'].tolist(), max_level=0)
-print(B.head())
+# A = json_normalize(df['propostas'].apply(only_dict).tolist(), max_level=0)
+# B = json_normalize(A['codigo'].tolist(), max_level=0)
+# print(B.head())
+# df2 = json_normalize(df['propostas'].apply(only_dict_json).tolist(), max_level=0)
+
+# print(df2.dtypes)
+# print(df2.head())
 
 
-# df2 = pd.DataFrame(df['datateste'].tolist())
+df2 = pd.DataFrame(df['propostas'].apply(only_dict).tolist())
+df3 = pd.DataFrame(df2['codigo'].tolist())
 # print(df['datateste'].tolist())
-#print(df2.dtypes)
+print(df3.dtypes)
+print(df3.head())
