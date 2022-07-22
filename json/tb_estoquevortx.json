@@ -1,0 +1,6 @@
+{
+    "table": "tb_EstoqueVortx",
+    "query_full": " select  from cateira.tb_EstoqueVortx with(nolock) ",
+    "query_delta": "",
+    "columns": []
+}

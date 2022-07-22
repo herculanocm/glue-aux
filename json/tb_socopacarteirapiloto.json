@@ -1,0 +1,267 @@
+{
+    "table": "tb_SocopaCarteiraPiloto",
+    "query_full": " select tee.CDI, tee.codigo, tee.dataAplicacao, tee.dataCessao, tee.dataEmissao, tee.dataPosicao, tee.dataVencimento, tee.descricao, tee.emitente, tee.fundoInvestido, tee.idFundo, tee.idSocopaCarteiraPiloto, tee.indexador, tee.papel, tee.PL, tee.puMercado, tee.quantidade, tee.quantidadeCotasLiquidas, tee.taxaAA, tee.tipo, tee.valorAplicacao, tee.valorCota, tee.valorCotaBrutaPerformance, tee.valorCotaUnitariaLiquida, tee.valorLiquido, tee.variacaoDiaria from carteira.tb_SocopaCarteiraPiloto tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "CDI",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "codigo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "dataAplicacao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "dataCessao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "dataEmissao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "dataPosicao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "dataVencimento",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "descricao",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "emitente",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "fundoInvestido",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "idFundo",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "idSocopaCarteiraPiloto",
+            "data_type": "int",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "indexador",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "papel",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "PL",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "puMercado",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "quantidade",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "quantidadeCotasLiquidas",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "taxaAA",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "tipo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "valorAplicacao",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "valorCota",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "valorCotaBrutaPerformance",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "valorCotaUnitariaLiquida",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "valorLiquido",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_SocopaCarteiraPiloto",
+            "column_name": "variacaoDiaria",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

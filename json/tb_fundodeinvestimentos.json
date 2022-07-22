@@ -1,0 +1,107 @@
+{
+    "table": "tb_FundoDeInvestimentos",
+    "query_full": " select tee.codigo, tee.dataPosicao, tee.dataProcessamento, tee.fundoInvestido, tee.idFundo, tee.idFundoDeInvestimentos, tee.quantidade, tee.tipo, tee.valorCota, tee.valorLiquido from carteira.tb_FundoDeInvestimentos tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "codigo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "dataPosicao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "dataProcessamento",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "fundoInvestido",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "idFundo",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "idFundoDeInvestimentos",
+            "data_type": "int",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "quantidade",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "tipo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "valorCota",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_FundoDeInvestimentos",
+            "column_name": "valorLiquido",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

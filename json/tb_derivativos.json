@@ -1,0 +1,117 @@
+{
+    "table": "tb_Derivativos",
+    "query_full": " select tee.ajusteEqualizacao, tee.ajusteValorizacao, tee.codigo, tee.dataposicao, tee.dataProcessamento, tee.idDerivativos, tee.idFundo, tee.pu, tee.quantidade, tee.tipo, tee.valorLiquido from carteira.tb_Derivativos tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "ajusteEqualizacao",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "ajusteValorizacao",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "codigo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "dataposicao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "dataProcessamento",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "idDerivativos",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "idFundo",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "pu",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "quantidade",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "tipo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Derivativos",
+            "column_name": "valorLiquido",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

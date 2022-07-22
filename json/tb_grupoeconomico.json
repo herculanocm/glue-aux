@@ -1,0 +1,47 @@
+{
+    "table": "tb_GrupoEconomico",
+    "query_full": " select tee.cnpjMatriz, tee.grupoEconomicoNome, tee.idGrupoEconomico, tee.idSetor from carteira.tb_GrupoEconomico tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_GrupoEconomico",
+            "column_name": "cnpjMatriz",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_GrupoEconomico",
+            "column_name": "grupoEconomicoNome",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_GrupoEconomico",
+            "column_name": "idGrupoEconomico",
+            "data_type": "int",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_GrupoEconomico",
+            "column_name": "idSetor",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

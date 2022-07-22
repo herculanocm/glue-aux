@@ -1,0 +1,37 @@
+{
+    "table": "tb_CategoriaAtivo",
+    "query_full": " select tee.ativoNome, tee.descricaoAtivo, tee.idCategoriaAtivo from carteira.tb_CategoriaAtivo tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_CategoriaAtivo",
+            "column_name": "ativoNome",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_CategoriaAtivo",
+            "column_name": "descricaoAtivo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_CategoriaAtivo",
+            "column_name": "idCategoriaAtivo",
+            "data_type": "int",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

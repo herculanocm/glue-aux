@@ -1,0 +1,127 @@
+{
+    "table": "tb_Taxa",
+    "query_full": " select tee.idTaxa, tee.nomeFundo, tee.razaoSocialFundo, tee.rebate, tee.taxaAdm, tee.taxaAdmTotal, tee.taxaCustodia, tee.taxaGestao, tee.valorMinAdm, tee.valorMinAdmTotal, tee.valorMinCustodia, tee.valorMinGestao from carteira.tb_Taxa tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "idTaxa",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "nomeFundo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "razaoSocialFundo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "rebate",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "taxaAdm",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "taxaAdmTotal",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "taxaCustodia",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "taxaGestao",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "valorMinAdm",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "valorMinAdmTotal",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "valorMinCustodia",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Taxa",
+            "column_name": "valorMinGestao",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

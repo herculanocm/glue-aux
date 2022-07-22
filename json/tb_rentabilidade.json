@@ -1,0 +1,117 @@
+{
+    "table": "tb_Rentabilidade",
+    "query_full": " select tee.cdi, tee.dataPosicao, tee.dataProcessamento, tee.idFundo, tee.idRentabilidade, tee.pl, tee.quantidadeCotaLiquida, tee.tipo, tee.valorCotaBrutaPerformance, tee.valorCotaLiquida, tee.varDiaria from carteira.tb_Rentabilidade tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "cdi",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "dataPosicao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "dataProcessamento",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "idFundo",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "idRentabilidade",
+            "data_type": "int",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "pl",
+            "data_type": "decimal",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "quantidadeCotaLiquida",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "tipo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "valorCotaBrutaPerformance",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "valorCotaLiquida",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_Rentabilidade",
+            "column_name": "varDiaria",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

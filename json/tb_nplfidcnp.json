@@ -1,0 +1,47 @@
+{
+    "table": "tb_NPLFidcNp",
+    "query_full": " select tee.ativo, tee.data, tee.fundo, tee.valor from carteira.tb_NPLFidcNp tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_NPLFidcNp",
+            "column_name": "ativo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_NPLFidcNp",
+            "column_name": "data",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_NPLFidcNp",
+            "column_name": "fundo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_NPLFidcNp",
+            "column_name": "valor",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

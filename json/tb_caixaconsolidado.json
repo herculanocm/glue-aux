@@ -1,0 +1,57 @@
+{
+    "table": "tb_CaixaConsolidado",
+    "query_full": " select tee.ativo, tee.chave, tee.data, tee.fundo, tee.valor from carteira.tb_CaixaConsolidado tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_CaixaConsolidado",
+            "column_name": "ativo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_CaixaConsolidado",
+            "column_name": "chave",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_CaixaConsolidado",
+            "column_name": "data",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_CaixaConsolidado",
+            "column_name": "fundo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_CaixaConsolidado",
+            "column_name": "valor",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "table": "tb_InstrumentoFinanceiro",
+    "query_full": " select tee.CCB, tee.instrumento from carteira.tb_InstrumentoFinanceiro tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_InstrumentoFinanceiro",
+            "column_name": "CCB",
+            "data_type": "varchar",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_InstrumentoFinanceiro",
+            "column_name": "instrumento",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

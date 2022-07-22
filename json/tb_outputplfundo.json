@@ -1,0 +1,127 @@
+{
+    "table": "tb_OutputPLFundo",
+    "query_full": " select tee.CDI, tee.CDI_Mes, tee.cotaBase, tee.dataCessao, tee.idPLFundo, tee.nomeFundo, tee.nrCotas, tee.observa\u00e7\u00e3o, tee.PL, tee.rendimentos, tee.valida\u00e7\u00e3o, tee.valorCotas from carteira.tb_OutputPLFundo tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "CDI",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "CDI_Mes",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "cotaBase",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "dataCessao",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "idPLFundo",
+            "data_type": "int",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "nomeFundo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "nrCotas",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "observa\u00e7\u00e3o",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "PL",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "rendimentos",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "valida\u00e7\u00e3o",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_OutputPLFundo",
+            "column_name": "valorCotas",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}

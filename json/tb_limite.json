@@ -1,0 +1,57 @@
+{
+    "table": "tb_limite",
+    "query_full": " select t1.dataReferencia, t1.idAtivo, t1.idLimite, t1.tipo, t1.valor from carteira.tb_limite t1 with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_limite",
+            "column_name": "dataReferencia",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "t1",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_limite",
+            "column_name": "idAtivo",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "t1",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_limite",
+            "column_name": "idLimite",
+            "data_type": "int",
+            "primary_key": true,
+            "row_num": false,
+            "column_where": false,
+            "alias": "t1",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_limite",
+            "column_name": "tipo",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "t1",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_limite",
+            "column_name": "valor",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "t1",
+            "column_operation": false
+        }
+    ]
+}

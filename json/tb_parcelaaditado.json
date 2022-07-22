@@ -1,0 +1,187 @@
+{
+    "table": "tb_ParcelaAditado",
+    "query_full": " select tee.aditado, tee.dataPagamento, tee.dataVencimento, tee.diasUteis, tee.fatorPre, tee.fundoLiquidado, tee.idAtivo, tee.margemEsperada, tee.nrControleParticipante, tee.nrDocumento, tee.pararAcumulo, tee.PMT, tee.status, tee.valorAquisicaoParcela, tee.valorPago, tee.valorParcela, tee.valorPresente, tee.valorRetido from carteira.tb_ParcelaAditado tee with(nolock) ",
+    "query_delta": "",
+    "columns": [
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "aditado",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "dataPagamento",
+            "data_type": "datetime",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "dataVencimento",
+            "data_type": "date",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "diasUteis",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "fatorPre",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "fundoLiquidado",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "idAtivo",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "margemEsperada",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "nrControleParticipante",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "nrDocumento",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "pararAcumulo",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "PMT",
+            "data_type": "int",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "status",
+            "data_type": "varchar",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "valorAquisicaoParcela",
+            "data_type": "money",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "valorPago",
+            "data_type": "money",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "valorParcela",
+            "data_type": "money",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "valorPresente",
+            "data_type": "float",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        },
+        {
+            "table_name": "tb_ParcelaAditado",
+            "column_name": "valorRetido",
+            "data_type": "money",
+            "primary_key": false,
+            "row_num": false,
+            "column_where": false,
+            "alias": "tee",
+            "column_operation": false
+        }
+    ]
+}
